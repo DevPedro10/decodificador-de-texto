@@ -1,0 +1,19 @@
+/* Decidi usar o reset básico pois um reset mais complexo só teria utilidade se havesse mais elementos no documento. */
+
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Variáveis para as cores ficarem flexíveis na manuntenção */
+:root {
+    --bg-color: #E5E5E5;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+
