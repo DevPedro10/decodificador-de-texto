@@ -9,11 +9,11 @@ function criptografar() {
     let msg = textoInput.value;
     // Criptografando Vogais
     let criptografia = msg
-    .replaceAll("a", "ai")
-    .replaceAll('e', "enter")
-    .replaceAll('i', "imes")
-    .replaceAll('o', "ober")
-    .replaceAll('u', "ufat")
+    .replaceAll("a", "l0d")
+    .replaceAll('e', "s3nt")
+    .replaceAll('i', "v1k")
+    .replaceAll('o', "0pt1c")
+    .replaceAll('u', "z3t")
     // Criptografando Consoantes
     
     output.innerHTML = `<span class="textUser">${criptografia}</span>`
@@ -36,12 +36,12 @@ function descriptografar() {
     let msg = textoInput.value;
 
     // Criptografando Vogais
-    var descriptografia = msg
-    .replaceAll("ai", "a")
-    .replaceAll("enter", "e")
-    .replaceAll("imes", "i")
-    .replaceAll("ober", "o")
-    .replaceAll("ufat", "u")
+    let descriptografia = msg
+    .replaceAll("l0d", "a")
+    .replaceAll('s3nt', "e")
+    .replaceAll('v1k', "i")
+    .replaceAll('0pt1c', "o")
+    .replaceAll('z3t', "u")
 
     if(msg.length == descriptografia.length) {
         alert("Seu texto não está Criptografado.")
