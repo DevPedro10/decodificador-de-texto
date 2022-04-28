@@ -27,8 +27,12 @@ body {
     cursor: pointer;
 }
 
-img#img-moon {
+img#img-sun {
     opacity: 0;
+}
+
+img#img-moon {
+    opacity: 1;
 }
 
 .logo picture#dark-mode img {
@@ -191,11 +195,11 @@ main {
 }
 
 .active img#img-moon {
-    opacity: 1;
+    opacity: 0;
 }
 
 .active img#img-sun {
-    opacity: 0;
+    opacity: 1;
 }
 
 /* Responsive */
