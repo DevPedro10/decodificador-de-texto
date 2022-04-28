@@ -5,7 +5,7 @@ let textoInput = document.querySelector("#campo-texto");
 
 function criptografar() {
     let output = document.querySelector(".output-container")
-    output.classList.add("active")
+    output.classList.add("active-output")
 
 
     let msg = textoInput.value;
@@ -44,7 +44,7 @@ function criptografar() {
 function descriptografar() {
 
     let output = document.querySelector(".output-container")
-    output.classList.add("active")
+    output.classList.add("active-output")
 
     let msg = textoInput.value;
 

@@ -7,11 +7,17 @@
     <title>Decodificador de Texto</title>
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/style/index.css">
+    <!-- CDN Font-Awesome -->
+    <script src="https://kit.fontawesome.com/23a8879629.js" crossorigin="anonymous"></script>
 </head>
 <body>
   
   <div class="logo">
-    <img src="assets/img/alura-icon.svg" alt="Logo da Alura">
+    <img id="logo-alura" src="assets/img/alura-icon.svg" alt="Logo da Alura">
+    <picture id="dark-mode">
+      <img id="img-moon" src="assets/img/moon.svg" alt="">
+      <img id="img-sun" src="assets/img/sun.svg" alt="">
+    </picture>
   </div>
   <main>
     <section class="container">
@@ -39,5 +45,6 @@
   </main>
 
   <script src="assets/scripts/index.js"></script>
+  <script src="assets/scripts/darkMode.js"></script>
 </body>
 </html>
